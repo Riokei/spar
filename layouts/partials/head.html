@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#1A94D2" />
 
-    {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
-    {{ $style := resources.Get "sass/main.scss" | toCSS  $options | minify }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
+    {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+
 
 
 
