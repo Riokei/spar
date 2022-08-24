@@ -1,0 +1,22 @@
+{
+  "name": "spar",
+  "version": "1.0.0",
+  "description": "A Hugo theme",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riokei/spar.git"
+  },
+  "author": "Riokei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riokei/spar/issues"
+  },
+  "homepage": "https://github.com/Riokei/spar#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}

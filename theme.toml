@@ -5,13 +5,13 @@ name = "Spar"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
 description = ""
-homepage = "http://example.com/"
+homepage = ""
 tags = []
 features = []
 min_version = "0.41.0"
 
 [author]
-  name = ""
+  name = "Riokei"
   homepage = ""
 
 # If porting an existing theme
@@ -19,3 +19,9 @@ min_version = "0.41.0"
   name = ""
   homepage = ""
   repo = ""
+
+# Modules
+[module]
+    [[module.mounts]]
+      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target = "assets/js/bootstrap.bundle.min.js"
