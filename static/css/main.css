@@ -3,7 +3,14 @@
 :root {
     --accent-blue: #46e5f0; 
 }
-
+body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
 .navbar {
     font-family: 'Press Start 2P', cursive;
 }
